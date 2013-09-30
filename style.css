@@ -20,6 +20,14 @@ header {
   position: relative;
 }
 
+/*#container {
+  width: 700px;
+  height: 600px;
+  text-align: center;
+  margin: 0 auto;
+  background-color: #FFC0CB;
+  position: relative;
+}*/
 
 
 #gameboard {
