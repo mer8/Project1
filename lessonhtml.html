@@ -1,0 +1,134 @@
+
+
+/**************This is a practice lession HTML doc**************************
+
+
+
+
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+<script>
+
+function navTicTacToe(){
+	location.href="ticTacToe.html"
+}
+
+</script>
+
+</head>
+
+
+
+
+
+
+<body>
+
+<div id="content">Hello world</div>
+
+//
+<input type="button" id="btn1" value="click me!" onclick="pesterButtonClick()" />
+
+<input type="checkbox" id="ckSpicy" /> <lable for="ckSpicy">Really pester you with spicy comments</lable>
+
+<br />
+<a href="ticTacToe.html">Tic Tac Toe Game!</a>
+
+
+//<input type="button" value="Tic Tac Toe" onclick="navTicTacToe()" />
+
+
+
+
+<input type="button" value="presto changeo" onclick
+
+
+
+
+<script>
+var stage = 1;
+
+
+
+
+
+function pesterButtonClick(){
+	var btn = document.getElementById('btn1');
+
+
+	if(document.getElementById("ckSpicy").checked)
+{
+
+
+	switch(stage)
+	{
+		case 1:
+			btn.value = "Loser";
+			break;
+		case 2:
+			btn.value = "Lame";
+			btn.style.backgroundColor = "#8030FF";
+			break;
+		case 3:
+			btn.value="Poo";
+			btn.style.color = "white";
+			break;
+		case 4:
+			btn.value="NO!";
+			break;
+		default:
+			btn.value="You look fat";
+			stage = 0;
+			break;
+	}
+}
+else
+{
+
+
+	switch(stage)
+	{
+		case 1:
+			btn.value = "Flowers are singing";
+			break;
+		case 2:
+			btn.value = "There is a spring in my step";
+			break;
+		case 3:
+			btn.value="You are beautiful!";
+			break;
+		case 4:
+			btn.value="Life is sweet!";
+			break;
+		default:
+			btn.value="Have you been losing weight?";
+			stage = 0;
+			break;
+	}
+}
+
+
+//	stage = stage + 1;
+	stage += 1;
+//	++stage;
+//	stage++;
+}
+
+
+
+
+
+
+
+
+
+</script>
+
+
+</body>
+
+</html>
