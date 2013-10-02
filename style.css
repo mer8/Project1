@@ -1,13 +1,14 @@
 header {
     text-align: center;
-    border-bottom: 5px solid #000;
+    border-bottom: 5px solid #666666;
     padding: 20px;
     margin: 15px;
     margin-left: auto;
     margin-right: auto;
     background-color: #f5f5f5;
     font-size: 50px;
-    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: #666666;
 }
 
 
@@ -16,7 +17,7 @@ header {
   height: 600px;
   text-align: center;
   margin: 0 auto;
-  background-color: #FFC0CB;
+  background-color: #FFCCE6;
   position: relative;
 }
 
@@ -25,18 +26,20 @@ header {
   height: 600px;
   text-align: center;
   margin: 0 auto;
-  background-color: #FFC0CB;
+  background-color: #FFCCE6;
   position: relative;
 }*/
 
 
 #gameboard {
   width: 350px;
-  height: 600px;
+  height: 350px;
   text-align: center;
   margin: 0 auto;
   padding-left: 33px;
   position: relative;
+  background-color: #FFCCE6;
+
 }
 
 .popup {
@@ -54,14 +57,14 @@ header {
 h1 {
   margin-top: 38px;
   font-size: 30px;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
 }
 
 .sqr {
   height: 100px;
   width: 100px;
   float: left;
-  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   font-size: 50px;
  
 
@@ -69,52 +72,52 @@ h1 {
 }
 
 #box1_1 {
-  border-bottom: 6px solid #000;
-  border-right: 6px solid #000;
+  border-bottom: 6px solid #666666;
+  border-right: 6px solid #666666;
   margin: 0px;
 
 
 }
 
 #box1_2 {
-  border-bottom: 6px solid #000;
-  border-right: 6px solid #000;
+  border-bottom: 6px solid #666666;
+  border-right: 6px solid #666666;
   margin: 0px;
 }
 
 #box1_3 {
-  border-bottom: 6px solid #000;
+  border-bottom: 6px solid #666666;
   margin: 0px;
 }
 
 #box2_1  {
-  border-bottom: 6px solid #000;
-  border-right: 6px solid #000;
+  border-bottom: 6px solid #666666;
+  border-right: 6px solid #666666;
   margin: 0px;
 
 }
 
 #box2_2 {
-  border-bottom: 6px solid #000;
-  border-right: 6px solid #000;
+  border-bottom: 6px solid #666666;
+  border-right: 6px solid #666666;
   margin: 0px;
 
 }
 
 #box2_3 {
-  border-bottom: 6px solid #000;
+  border-bottom: 6px solid #666666;
   margin: 0px;
 
 }
 
 #box3_1 {
-  border-right: 6px solid #000;
+  border-right: 6px solid #666666;
   margin: 0px;
 
 }
 
 #box3_2  {
-  border-right: 6px solid #000;
+  border-right: 6px solid #666666;
   margin: 0px;
 
 }
@@ -131,5 +134,35 @@ h1 {
 .clear {
     clear: both;
 }
+
+
+
+
+
+footer {
+    text-align: center;
+    border-top: 5px solid #666666;
+    padding: 20px;
+    margin: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f5f5f5;
+    font-size: 50px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: #666666;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
