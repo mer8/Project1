@@ -122,13 +122,19 @@ for(r=0;r<=2;++r)
  	if (cellArray[0][c] == cellArray[1][c] && 
  		cellArray[1][c] == cellArray[2][c] && 
  		cellArray[0][c] != "")
- 		alert(cellArray[0][c] +" won in column" + c);
+ 		{
+ 			alert(cellArray[0][c] +" won in column" + c);
+ 		location.reload();
+ 		}
 
 
  	if (cellArray[c][0] == cellArray[c][1] && 
  		cellArray[c][1] == cellArray[c][2] && 
  		cellArray[c][0] != "")
- 		alert(cellArray[c][0] +" won in row" + c);
+ 		{
+ 			alert(cellArray[c][0] +" won in row" + c);
+ 		location.reload();
+ 		}
 
 
  }
@@ -138,12 +144,18 @@ for(r=0;r<=2;++r)
   	if (cellArray[0][0] == cellArray[1][1] &&
  		cellArray[1][1] == cellArray[2][2] &&
  		cellArray[2][2] != "")
- 		alert(cellArray[2][2] +" won in diag" + c);
+ 		{
+ 			alert(cellArray[2][2] +" won in diag" + c);
+ 		location.reload();
+ 		}
 
  	if (cellArray[0][2] == cellArray[1][1] &&
  		cellArray[1][1] == cellArray[2][0] &&
  		cellArray[2][0] != "")
- 		alert(cellArray[2][0] +" won in diag" + c);
+ 		{
+ 			alert(cellArray[2][0] +" won in diag" + c);
+ 		location.reload();
+ 		}
 
 
 
